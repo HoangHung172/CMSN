@@ -72,6 +72,28 @@ document.querySelector("#mess").addEventListener("change", function () { //Hiệ
     }
 })
 
+document.querySelector(".content").addEventListener("click", function () {
+    // Chỉ kích hoạt nếu chưa hiển thị nội dung thư
+    if (!this.classList.contains("actived")) {
+        document.querySelector("#mess").checked = true; // Tự động tick checkbox
+        this.classList.add("actived");
+
+        const splitMainContentLetter = mainContentLetter.split("");
+
+        splitMainContentLetter.forEach((val, index) => {
+            setTimeout(() => {
+                document.querySelector(".mainContent").innerHTML += val;
+                if (index == mainContentLetter.length - 1) {
+                    document.querySelector(".img1").setAttribute("style", "opacity: 1; transition: .5s");
+                }
+            }, 50 * index);
+        });
+    }
+});
+
+
+
+
 document.querySelector(".recieve").addEventListener("click", () => {
     document.querySelector(".startLetter").classList.add("close");
     setTimeout(() => {
