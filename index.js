@@ -1,4 +1,4 @@
-const contentLetterSrart_actived = "Konichiwa chị tui 😄 !" //Lời mở đầu cho bức thư
+const contentLetterSrart_actived = "Konnichiwa chị tui 😄 !" //Lời mở đầu cho bức thư
 const mainContentLetter = "Chúc chị Như tuổi mới lúc nào cũng vui vẻ và sớm trở thành phú bà nhé ☘️" //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
