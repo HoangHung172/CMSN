@@ -1,5 +1,5 @@
-const contentLetterSrart_actived = "Konichiwa chị tui :D !" //Lời mở đầu cho bức thư
-const mainContentLetter = "Chúc chị Như tuổi mới lúc nào cũng vui vẻ và sớm trở thành phú bà nhé hehe" //Nội dung của bức thư
+const contentLetterSrart_actived = "Konichiwa chị tui 😄 !" //Lời mở đầu cho bức thư
+const mainContentLetter = "Chúc chị Như tuổi mới lúc nào cũng vui vẻ và sớm trở thành phú bà nhé ☘️" //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
